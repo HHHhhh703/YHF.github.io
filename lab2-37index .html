@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杨宏飞 - 个人简历</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.97);
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid #ddd;
+        }
+        
+        .resume-title {
+            text-align: center;
+            margin: 20px 0;
+            color: #c5402c;
+            font-size: 24px;
+            border-bottom: 2px solid #c75a1f;
+            padding-bottom: 10px;
+        }
+        
+        .resume-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+        
+        .resume-table th, .resume-table td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            vertical-align: top;
+        }
+        
+        .resume-table th {
+            background-color: #f0f8ff;
+            width: 20%;
+            font-weight: normal;
+        }
+        
+        .photo-cell {
+            text-align: center;
+            width: 120px;
+        }
+        
+        .photo-placeholder {
+            width: 100px;
+            height: 120px;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        
+        .photo-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .section-title {
+            background-color: #db5c17;
+            color: white;
+            padding: 8px 15px;
+            margin: 20px 0 10px;
+            border-radius: 4px;
+        }
+        
+        ol.custom {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        ol.custom li {
+            margin-bottom: 8px;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        ol.custom li i {
+            position: absolute;
+            left: 0;
+            top: 4px;
+            color: #d76620;
+        }
+        
+        .info-text {
+            padding: 8px 0;
+            margin-bottom: 5px;
+        }
+        
+        .hint {
+            font-size: 12px;
+            color: #888;
+            font-style: italic;
+        }
+        
+        .maple-leaf {
+            color: #d35400;
+            font-size: 20px;
+            margin: 0 5px;
+        }
+        
+        .header-decoration {
+            text-align: center;
+            margin: 10px 0;
+        }
+        
+        .self-eval {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #fdbb2d;
+            margin-top: 15px;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .self-eval p {
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #444;
+            margin-bottom: 15px;
+        }
+        
+        .word-count {
+            text-align: right;
+            font-size: 12px;
+            color: #888;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="resume-content">
+            <h1 class="resume-title">个人简历</h1>
+            <table class="resume-table">
+                <tr>
+                    <th>姓名</th>
+                    <td class="info-text">杨宏飞</td>
+                    <th>性别</th>
+                    <td class="info-text">男</td>
+                    <td rowspan="4" class="photo-cell">
+                        <div class="photo-placeholder">
+                            <img src="yhf.jpg" alt="个人照片" onerror="this.style.display='none'; this.parentNode.innerHTML='照片区域';">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>年龄</th>
+                    <td class="info-text">18</td>
+                    <th>籍贯</th>
+                    <td class="info-text">重庆市</td>
+                </tr>
+                <tr>
+                    <th>联系电话</th>
+                    <td class="info-text">18325135032</td>
+                    <th>电子邮箱</th>
+                    <td class="info-text">3180353532@qq.com</td>
+                </tr>
+                <tr>
+                    <th>学历</th>
+                    <td class="info-text">本科</td>
+                    <th>健康状况</th>
+                    <td class="info-text">良好</td>
+                </tr>
+                <tr>
+                    <th>专业</th>
+                    <td class="info-text">计算机科学与技术</td>
+                    <th>就读院校</th>
+                    <td colspan="2" class="info-text">鲁东大学</td>
+                </tr>
+            </table>
+            
+            <div class="section-title">技能证书</div>
+            <ol class="custom">
+                <span class="info-text">无</span></li>
+            </ol>
+            
+            <div class="section-title">个人特长与爱好</div>
+            <ol class="custom">
+                <li><span class="info-text">听音乐，跑步</span></li>
+            </ol>
+            
+            <div class="section-title">项目经历</div>
+            <div class="info-text">无</div>
+            <div class="section-title">自我评价</div>
+            <div class="self-eval">
+                <p>我是一个对技术充满热情、注重细节且具备快速学习能力的人。在编程领域，我不仅掌握基础语法与算法逻辑，还能通过实际项目优化代码效率，例如通过模块化设计提升程序可维护性。</p>
+                <p>面对问题时，我习惯拆解目标、分步骤突破，曾独立完成个人简介网页开发，将理论知识转化为可视化成果。团队协作中，我擅长倾听与沟通，在计算机协会媒体部面试中，通过清晰表达技术兴趣与团队贡献意愿，展现了良好的协作意识。</p>
+                <p>作为计算机专业学生，我主动关注行业动态，对人工智能与软件开发的结合抱有探索热情，计划深耕智能算法方向。我始终以“严谨+创新”的态度对待任务：既注重逻辑的严密性，也乐于尝试新思路。未来希望在技术深耕中不断突破自我，用代码解决实际问题，成为兼具执行力与创造力的技术人才。</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 页面加载时检查照片是否加载成功
+        window.onload = function() {
+            const img = document.querySelector('.photo-placeholder img');
+            if (img.naturalWidth === 0) {
+                img.style.display = 'none';
+                img.parentNode.innerHTML = '照片区域';
+            }
+        };
+    </script>
+</body>
+</html>
